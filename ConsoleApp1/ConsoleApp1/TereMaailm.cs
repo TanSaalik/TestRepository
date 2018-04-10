@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Tere maailm!");
             Console.WriteLine("Nyyd on 2kki push ka.");
+            Tervitaja.tervitaja();
             Console.ReadLine();
         }
     }
