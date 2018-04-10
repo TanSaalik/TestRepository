@@ -6,7 +6,13 @@ namespace ConsoleApp1
     {
         internal static void Tervita(string keda)
         {
-            Console.WriteLine("Tere" + keda + "!");
+            Console.WriteLine("Tere " + keda + "!");
+        }
+
+        internal static void Tervita(string[] v)
+        {
+            for(int i = 0; i < v.Length; i++)
+            Console.WriteLine("Tere " + v[i] + "!");
         }
     }
 }

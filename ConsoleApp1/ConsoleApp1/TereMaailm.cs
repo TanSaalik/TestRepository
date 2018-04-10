@@ -13,6 +13,7 @@ namespace ConsoleApp1
             Console.WriteLine("Tere maailm!");
             Console.WriteLine("Nyyd on 2kki push ka.");
             Tervitaja.Tervita("ASK");
+            Tervitaja.Tervita(new string[] { "Maailm" , "Jaan", "Mati"});
             Console.ReadLine();
         }
     }
